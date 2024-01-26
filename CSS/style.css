@@ -1,0 +1,65 @@
+/*.border1{
+    width: 500px;
+    height: 200px;
+    border: solid 1px black;
+}*/
+
+.border1{
+    width: 500px;
+    height: 200px;
+    /*border-width: 10px;
+    border-style: outset;
+    border-color: black yellow violet brown;*/
+    background: rgba(255, 0, 0, 0.493);
+    border: inset 10px black;
+}
+
+/*.border2{
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+    border-style: groove;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-color: black;
+    background: rebeccapurple;
+}*/
+
+.border2{
+    width: 200px;
+    height: 200px;
+    border: groove 10px black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: rgba(137, 43, 226, 0.589);
+    outline-width: 10px;
+    outline-style: double;
+    outline-color: blueviolet;
+    outline-offset: 20px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.border3{
+    width: 500px;
+    height: 200px;
+    border: double 10px rgb(15, 230, 122);
+    background: rgba(172, 255, 47, 0.589);
+    outline: dotted 5px lightseagreen;
+    margin: 20px;
+}
+
+.borderimage{
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    border-image: url(../IMG/borde\ uwu.png) 10px black;
+    background: rgba(245, 107, 56, 0.712);
+
+}
